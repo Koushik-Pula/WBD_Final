@@ -45,7 +45,7 @@ app.use(helmet());
 app.use(morgan('dev'));
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://wbd-final-one.vercel.app/',
   credentials: true
 }));
 
