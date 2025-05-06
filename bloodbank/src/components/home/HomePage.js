@@ -24,7 +24,7 @@ class HomePage extends Component {
   }
 
   componentDidMount() {
-    axios.get(`${api_uri}/api/counts`)
+    axios.get(`${api_uri}/api/counts`,{ withCredentials: true })
       .then((response) => {
         const { donorsRegistered, employeesRegistered, donationsDone, bloodUnitsCollected } = response.data;
         this.setState({

@@ -41,6 +41,7 @@ const Addemp = () => {
 
     const response = await fetch(`${api_uri}/AddEmploy`, {
       method: 'POST',
+      credentials: 'include',
       headers: {
         'Content-Type': 'application/json',
       },
