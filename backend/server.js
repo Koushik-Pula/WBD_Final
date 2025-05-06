@@ -45,7 +45,7 @@ app.use(helmet());
 app.use(morgan('dev'));
 
 app.use(cors({
-  origin: 'https://wbd-final-i8iv4pn37-koushik-pulas-projects.vercel.app',
+  origin: 'https://wbd-final-rll80e1ia-koushik-pulas-projects.vercel.app',
   credentials: true
 }));
 
